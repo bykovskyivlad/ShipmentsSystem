@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipments.Api", "Shipments.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipments.Mvc", "Shipments.Mvc\Shipments.Mvc.csproj", "{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipmets.Shared", "Shipmets.Shared\Shipmets.Shared.csproj", "{14EDC56C-B032-4716-8853-561498F30AFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipments.Shared", "Shipmets.Shared\Shipments.Shared.csproj", "{14EDC56C-B032-4716-8853-561498F30AFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

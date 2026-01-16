@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipmets.Shared.csproj",
-      "projectName": "Shipmets.Shared",
-      "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipmets.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj",
+      "projectName": "Shipments.Shared",
+      "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj",
       "packagesPath": "C:\\Users\\vlady\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\obj\\",
       "projectStyle": "PackageReference",

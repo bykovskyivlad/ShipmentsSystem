@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "Shipments.Mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Program.cs",
+              "RelativeToolTip": "Shipments.Mvc\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:40:21.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Shipments.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Program.cs",
+              "RelativeToolTip": "Shipments.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:40:18.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

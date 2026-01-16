@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipments.Api", "Shipments.Api\Shipments.Api.csproj", "{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipments.Mvc", "Shipments.Mvc\Shipments.Mvc.csproj", "{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipmets.Shared", "Shipmets.Shared\Shipmets.Shared.csproj", "{14EDC56C-B032-4716-8853-561498F30AFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EDC56C-B032-4716-8853-561498F30AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EDC56C-B032-4716-8853-561498F30AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EDC56C-B032-4716-8853-561498F30AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EDC56C-B032-4716-8853-561498F30AFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

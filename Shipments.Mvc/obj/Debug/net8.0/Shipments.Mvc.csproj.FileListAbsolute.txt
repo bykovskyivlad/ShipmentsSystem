@@ -25,9 +25,9 @@ C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\stati
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\Shipments.Mvc.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\refint\Shipments.Mvc.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\Shipments.Mvc.pdb
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\Shipments.Mvc.genruntimeconfig.cache
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\ref\Shipments.Mvc.dll
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\Shipments.Mvc.sourcelink.json

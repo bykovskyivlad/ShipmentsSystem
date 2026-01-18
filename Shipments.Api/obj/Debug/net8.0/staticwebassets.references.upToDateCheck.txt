@@ -1,0 +1,3 @@
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json

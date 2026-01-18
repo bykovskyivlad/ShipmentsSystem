@@ -1301,6 +1301,29 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Shipments.Mvc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shipments.Mvc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shipments.Mvc.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Shipments.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Shipments.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shipments.Shared.dll": {}
+        }
       }
     }
   },
@@ -3368,6 +3391,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Shipments.Mvc/1.0.0": {
+      "type": "project",
+      "path": "../Shipments.Mvc/Shipments.Mvc.csproj",
+      "msbuildProject": "../Shipments.Mvc/Shipments.Mvc.csproj"
+    },
+    "Shipments.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shipmets.Shared/Shipments.Shared.csproj",
+      "msbuildProject": "../Shipmets.Shared/Shipments.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3379,6 +3412,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
+      "Shipments.Mvc >= 1.0.0",
+      "Shipments.Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -3414,7 +3449,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Shipments.Mvc.csproj": {
+              "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Shipments.Mvc.csproj"
+            },
+            "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj": {
+              "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

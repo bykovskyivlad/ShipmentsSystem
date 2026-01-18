@@ -1,0 +1,12 @@
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\bin\Debug\net8.0\Shipments.Shared.deps.json
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\bin\Debug\net8.0\Shipments.Shared.dll
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\bin\Debug\net8.0\Shipments.Shared.pdb
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.AssemblyInfoInputs.cache
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.AssemblyInfo.cs
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.sourcelink.json
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.dll
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\refint\Shipments.Shared.dll
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.pdb
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\ref\Shipments.Shared.dll

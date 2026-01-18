@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Contracts\Shipments\Responses\" />
     <Folder Include="Contracts\Shipments\Requests\" />
-    <Folder Include="Domain\Rules\" />
   </ItemGroup>
 
 </Project>

@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\rules\\shipmentstatustransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\rules\\shipmentstatustransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\auth\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\auth\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipmets.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipmets.Shared.csproj|solutionrelative:shipmets.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipmentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipmentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,19 +51,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShipmentStatusTransitions.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
+              "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
+              "RelativeToolTip": "Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:59:40.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShipmentEvent.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
+              "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
+              "RelativeToolTip": "Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:49:49.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Shipment.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "RelativeToolTip": "Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBoAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T18:35:00.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ShipmentStatus.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
@@ -68,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Auth\\Roles.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Auth\\Roles.cs",
@@ -81,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Class1.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Class1.cs",
@@ -94,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Program.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Program.cs",
@@ -102,12 +136,11 @@
               "RelativeToolTip": "Shipments.Mvc\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T16:40:21.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T16:40:21.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Program.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Program.cs",
@@ -115,8 +148,7 @@
               "RelativeToolTip": "Shipments.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T16:40:18.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T16:40:18.78Z"
             }
           ]
         }

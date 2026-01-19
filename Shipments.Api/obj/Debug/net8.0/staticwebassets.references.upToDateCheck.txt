@@ -25,3 +25,4 @@ C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\stati
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.build.json

@@ -5,10 +5,6 @@
       {
         "Path": "Shipments.Api\\Shipments.Api.csproj",
         "Action": "Start"
-      },
-      {
-        "Path": "Shipments.Mvc\\Shipments.Mvc.csproj",
-        "Action": "Start"
       }
     ]
   }

@@ -28,8 +28,4 @@
     <ProjectReference Include="..\Shipmets.Shared\Shipments.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

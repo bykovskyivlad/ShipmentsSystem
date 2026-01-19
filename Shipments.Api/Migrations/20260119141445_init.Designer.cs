@@ -11,7 +11,7 @@ using Shipments.Api.Data;
 namespace Shipments.Api.Migrations
 {
     [DbContext(typeof(ShipmentsDbContext))]
-    [Migration("20260119121503_init")]
+    [Migration("20260119141445_init")]
     partial class init
     {
         /// <inheritdoc />

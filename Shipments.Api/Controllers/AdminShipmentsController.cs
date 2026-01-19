@@ -23,6 +23,14 @@ public class AdminShipmentsController : ControllerBase
         return Ok(list);
     }
 
+    [HttpPatch("{id:int}/assign/{courierId}")]
+    public async Task<IActionResult> AssignCourier(int id, string courierId)
+    {
+        var adminId = "TEMP-ADMIN-ID";
+        var dto = await _service.AssignCourierAsync(id, courierId, adminId, Roles.Admin);
+        return Ok(dto);
+    }
+
     [HttpPatch("{id:int}/status")]
     public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateShipmentStatusRequest request)
     {

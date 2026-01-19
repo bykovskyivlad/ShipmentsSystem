@@ -100,6 +100,43 @@ public class ShipmentService : IShipmentService
         return MapDetails(shipment);
     }
 
+    public async Task<ShipmentDetailsDto> AssignCourierAsync(
+        int shipmentId,
+        string courierId,
+        string performedByUserId,
+        string performedByRole)
+    {
+        var shipment = await _db.Shipments
+            .Include(s => s.Events)
+            .FirstOrDefaultAsync(s => s.Id == shipmentId);
+
+        if (shipment is null)
+            throw new KeyNotFoundException("Shipment not found");
+
+        if (shipment.Status == ShipmentStatus.Delivered)
+            throw new InvalidOperationException("Cannot assign courier to delivered shipment");
+
+        shipment.CourierId = courierId;
+        shipment.UpdatedAtUtc = DateTimeOffset.UtcNow;
+
+        var ev = new ShipmentEvent
+        {
+            ShipmentId = shipment.Id,
+            OldStatus = shipment.Status,
+            NewStatus = shipment.Status,
+            PerformedByUserId = performedByUserId,
+            PerformedByRole = performedByRole,
+            Notes = $"Assigned courier: {courierId}",
+            OccurredAtUtc = DateTimeOffset.UtcNow
+        };
+
+        shipment.Events.Add(ev);
+
+        await _db.SaveChangesAsync();
+
+        return MapDetails(shipment);
+    }
+
     public async Task<List<ShipmentListItemDto>> GetForClientAsync(string clientId)
         => await _db.Shipments.AsNoTracking()
             .Where(s => s.ClientId == clientId)
@@ -119,6 +156,7 @@ public class ShipmentService : IShipmentService
             .OrderByDescending(s => s.CreatedAtUtc)
             .Select(MapListItemExpr)
             .ToListAsync();
+
     private static ShipmentDetailsDto MapDetails(Shipment shipment) => new()
     {
         Id = shipment.Id,

@@ -178,26 +178,34 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
-
     public async Task<List<ShipmentListItemDto>> GetForClientAsync(string clientId)
-        => await _db.Shipments.AsNoTracking()
+    {
+        var list = await _db.Shipments.AsNoTracking()
             .Where(s => s.ClientId == clientId)
-            .OrderByDescending(s => s.CreatedAtUtc)
             .Select(MapListItemExpr)
             .ToListAsync();
+
+        return list.OrderByDescending(x => x.CreatedAtUtc).ToList();
+    }
 
     public async Task<List<ShipmentListItemDto>> GetForCourierAsync(string courierId)
-        => await _db.Shipments.AsNoTracking()
+    {
+        var list = await _db.Shipments.AsNoTracking()
             .Where(s => s.CourierId == courierId)
-            .OrderByDescending(s => s.UpdatedAtUtc)
             .Select(MapListItemExpr)
             .ToListAsync();
 
+        return list.OrderByDescending(x => x.UpdatedAtUtc).ToList();
+    }
+
     public async Task<List<ShipmentListItemDto>> GetAllAsync()
-        => await _db.Shipments.AsNoTracking()
-            .OrderByDescending(s => s.CreatedAtUtc)
+    {
+        var list = await _db.Shipments.AsNoTracking()
             .Select(MapListItemExpr)
             .ToListAsync();
+
+        return list.OrderByDescending(x => x.CreatedAtUtc).ToList();
+    }
 
     private static ShipmentDetailsDto MapDetails(Shipment shipment) => new()
     {

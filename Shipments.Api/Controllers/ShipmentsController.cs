@@ -28,7 +28,27 @@ public class ShipmentsController : ControllerBase
         var dto = await _shipmentService.CancelAsync(id, request, userId);
         return Ok(dto);
     }
+    [HttpGet("mine")]
+    [Authorize(Roles = Roles.Client)]
+    public async Task<IActionResult> Mine()
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId is null) return Unauthorized("UserId not found");
 
+        var list = await _shipmentService.GetForClientAsync(userId);
+        return Ok(list);
+    }
+
+    [HttpGet("{id:int}")]
+    [Authorize(Roles = Roles.Client)]
+    public async Task<IActionResult> Details(int id)
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId is null) return Unauthorized("UserId not found");
+
+        var dto = await _shipmentService.GetDetailsForClientAsync(id, userId);
+        return Ok(dto);
+    }
     [HttpPost]
     [Authorize(Roles = Roles.Client)]
     public async Task<IActionResult> Create([FromBody] CreateShipmentRequest request)

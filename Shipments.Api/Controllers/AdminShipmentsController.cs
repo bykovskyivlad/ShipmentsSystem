@@ -25,6 +25,13 @@ public class AdminShipmentsController : ControllerBase
         var list = await _service.GetAllAsync();
         return Ok(list);
     }
+    [HttpGet("{id:int}")]
+    public async Task<IActionResult> Details(int id)
+    {
+        var dto = await _service.GetDetailsForAdminAsync(id);
+        return Ok(dto);
+    }
+
 
     [HttpPatch("{id:int}/assign/{courierId}")]
     public async Task<IActionResult> AssignCourier(int id, string courierId)

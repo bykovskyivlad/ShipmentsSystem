@@ -28,6 +28,15 @@ public class CourierShipmentsController : ControllerBase
         var list = await _service.GetForCourierAsync(courierId);
         return Ok(list);
     }
+    [HttpGet("{id:int}")]
+    public async Task<IActionResult> Details(int id)
+    {
+        var courierId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (courierId is null) return Unauthorized("UserId not found");
+
+        var dto = await _service.GetDetailsForCourierAsync(id, courierId);
+        return Ok(dto);
+    }
 
     [HttpPatch("{id:int}/status")]
     public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateShipmentStatusRequest request)

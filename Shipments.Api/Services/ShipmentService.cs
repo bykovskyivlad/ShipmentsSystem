@@ -136,6 +136,50 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
+    public async Task<ShipmentDetailsDto> GetDetailsForClientAsync(int shipmentId, string clientId)
+    {
+        var shipment = await _db.Shipments
+            .AsNoTracking()
+            .Include(s => s.Events)
+            .FirstOrDefaultAsync(s => s.Id == shipmentId);
+
+        if (shipment is null)
+            throw new KeyNotFoundException("Shipment not found");
+
+        if (shipment.ClientId != clientId)
+            throw new UnauthorizedAccessException("Client has no access to this shipment");
+
+        return MapDetails(shipment);
+    }
+
+    public async Task<ShipmentDetailsDto> GetDetailsForCourierAsync(int shipmentId, string courierId)
+    {
+        var shipment = await _db.Shipments
+            .AsNoTracking()
+            .Include(s => s.Events)
+            .FirstOrDefaultAsync(s => s.Id == shipmentId);
+
+        if (shipment is null)
+            throw new KeyNotFoundException("Shipment not found");
+
+        if (shipment.CourierId != courierId)
+            throw new UnauthorizedAccessException("Courier has no access to this shipment");
+
+        return MapDetails(shipment);
+    }
+
+    public async Task<ShipmentDetailsDto> GetDetailsForAdminAsync(int shipmentId)
+    {
+        var shipment = await _db.Shipments
+            .AsNoTracking()
+            .Include(s => s.Events)
+            .FirstOrDefaultAsync(s => s.Id == shipmentId);
+
+        if (shipment is null)
+            throw new KeyNotFoundException("Shipment not found");
+
+        return MapDetails(shipment);
+    }
     public async Task<ShipmentDetailsDto> CancelAsync(int shipmentId, CancelShipmentRequest request, string clientId)
     {
         var shipment = await _db.Shipments

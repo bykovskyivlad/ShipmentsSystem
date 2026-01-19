@@ -98,4 +98,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+await IdentitySeed.SeedRolesAsync(app.Services);
 app.Run();

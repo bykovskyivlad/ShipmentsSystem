@@ -14,6 +14,13 @@ public class ShipmentsController : ControllerBase
     {
         _shipmentService = shipmentService;
     }
+    [HttpPatch("{id:int}/cancel")]
+    public async Task<IActionResult> Cancel(int id, [FromBody] CancelShipmentRequest request)
+    {
+        var userId = "TEMP-USER-ID";
+        var dto = await _shipmentService.CancelAsync(id, request, userId);
+        return Ok(dto);
+    }
 
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateShipmentRequest request)

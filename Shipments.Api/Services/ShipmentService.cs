@@ -136,6 +136,48 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
+    public async Task<ShipmentDetailsDto> CancelAsync(int shipmentId, CancelShipmentRequest request, string clientId)
+    {
+        var shipment = await _db.Shipments
+            .Include(s => s.Events)
+            .FirstOrDefaultAsync(s => s.Id == shipmentId);
+
+        if (shipment is null)
+            throw new KeyNotFoundException("Shipment not found");
+
+        if (shipment.ClientId != clientId)
+            throw new UnauthorizedAccessException("Client has no access to this shipment");
+
+        var oldStatus = shipment.Status;
+        var newStatus = ShipmentStatus.Canceled;
+
+        if (!ShipmentStatusTransitions.CanTransition(oldStatus, newStatus))
+        {
+            var allowed = ShipmentStatusTransitions.GetAllowedTransitions(oldStatus);
+            throw new InvalidOperationException(
+                $"Cannot cancel shipment in status {oldStatus}. Allowed: {string.Join(", ", allowed)}");
+        }
+
+        shipment.Status = newStatus;
+        shipment.UpdatedAtUtc = DateTimeOffset.UtcNow;
+
+        var ev = new ShipmentEvent
+        {
+            ShipmentId = shipment.Id,
+            OldStatus = oldStatus,
+            NewStatus = newStatus,
+            PerformedByUserId = clientId,
+            PerformedByRole = Roles.Client,
+            Notes = string.IsNullOrWhiteSpace(request?.Notes) ? "Canceled by client" : request.Notes,
+            OccurredAtUtc = DateTimeOffset.UtcNow
+        };
+
+        shipment.Events.Add(ev);
+
+        await _db.SaveChangesAsync();
+
+        return MapDetails(shipment);
+    }
 
     public async Task<List<ShipmentListItemDto>> GetForClientAsync(string clientId)
         => await _db.Shipments.AsNoTracking()

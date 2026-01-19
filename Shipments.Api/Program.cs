@@ -17,6 +17,8 @@ builder.Services
     .AddEntityFrameworkStores<ShipmentsDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -26,8 +28,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
 
-app.UseAuthentication();   
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

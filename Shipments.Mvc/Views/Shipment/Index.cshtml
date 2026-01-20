@@ -1,0 +1,29 @@
+﻿@model List<ShipmentListItemDto>
+
+<h2>My shipments</h2>
+
+<a asp-action="Create">➕ New shipment</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Status</th>
+            <th>City</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Status</td>
+                <td>@s.RecipientCity</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@s.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

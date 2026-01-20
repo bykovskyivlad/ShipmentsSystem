@@ -1,60 +1,91 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using Shipments.Mvc.Models;
-using Shipments.Mvc.Services;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
+using System.Text.Json;
 
 namespace Shipments.Mvc.Controllers;
 
 public class AuthController : Controller
 {
-    private readonly ShipmentsApiClient _api;
-    private readonly ITokenCookieService _tokens;
+    private readonly ApiClient _api;
 
-    public AuthController(ShipmentsApiClient api, ITokenCookieService tokens)
+    public AuthController(ApiClient api)
     {
         _api = api;
-        _tokens = tokens;
     }
-
-    public record LoginRequest(string Email, string Password);
-    public record LoginResponse(string Token);
 
     [HttpGet]
-    public IActionResult Login() => View(new LoginViewModel());
+    public IActionResult Login(string? returnUrl = null)
+    {
+        ViewBag.ReturnUrl = returnUrl;
+        return View();
+    }
 
     [HttpPost]
-    public async Task<IActionResult> Login(LoginViewModel model)
+    public async Task<IActionResult> Login(
+        string email,
+        string password,
+        string? returnUrl = null)
     {
-        var resp = await _api.PostAsync<LoginRequest, LoginResponse>("/api/auth/login", new(model.Email, model.Password));
-        if (resp is null || string.IsNullOrWhiteSpace(resp.Token))
+        var json = await _api.PostAsync<JsonElement>(
+            "/api/auth/login",
+            new { Email = email, Password = password }
+        );
+
+        if (json.ValueKind == JsonValueKind.Undefined)
         {
-            ModelState.AddModelError("", "Login failed");
-            return View(model);
+            ModelState.AddModelError("", "Invalid email or password");
+            return View();
         }
 
-        _tokens.SetToken(Response, resp.Token);
+        var token = json.GetProperty("token").GetString();
+        var role = json.GetProperty("role").GetString();
+        var mail = json.GetProperty("email").GetString();
 
-        var jwt = new JwtSecurityTokenHandler().ReadJwtToken(resp.Token);
-        var claims = jwt.Claims.ToList();
+        if (token is null || role is null)
+        {
+            ModelState.AddModelError("", "Invalid login response");
+            return View();
+        }
 
-        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, mail ?? email),
+            new Claim(ClaimTypes.Role, role),
+            new Claim("access_token", token)
+        };
+
+        var identity = new ClaimsIdentity(
+            claims,
+            CookieAuthenticationDefaults.AuthenticationScheme
+        );
+
         await HttpContext.SignInAsync(
             CookieAuthenticationDefaults.AuthenticationScheme,
-            new ClaimsPrincipal(identity));
+            new ClaimsPrincipal(identity)
+        );
 
-        return RedirectToAction("Index", "Home");
+        return RedirectAfterLogin(role, returnUrl);
     }
 
-    [HttpPost]
+    private IActionResult RedirectAfterLogin(string role, string? returnUrl)
+    {
+        if (!string.IsNullOrEmpty(returnUrl))
+            return Redirect(returnUrl);
+
+        return role switch
+        {
+            "Client" => RedirectToAction("Index", "Shipments"),
+            "Courier" => RedirectToAction("Index", "Courier"),
+            "Admin" => RedirectToAction("Index", "Admin"),
+            _ => RedirectToAction("Index", "Home")
+        };
+    }
+
     public async Task<IActionResult> Logout()
     {
-        _tokens.ClearToken(Response);
-        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        await HttpContext.SignOutAsync();
         return RedirectToAction("Login");
     }
-
-    public IActionResult Denied() => View();
 }

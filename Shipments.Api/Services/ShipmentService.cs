@@ -1,6 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Shipments.Api.Data;
+using Shipments.Api.Models;
 using Shipments.Shared.Auth;
+using Shipments.Shared.Contracts.Admin;
 using Shipments.Shared.Contracts.Couriers.Requests;
 using Shipments.Shared.Contracts.Shipments.Requests;
 using Shipments.Shared.Contracts.Shipments.Responses;
@@ -13,14 +16,20 @@ namespace Shipments.Api.Services;
 public class ShipmentService : IShipmentService
 {
     private readonly ShipmentsDbContext _db;
+    private readonly UserManager<AppUser> _userManager;
 
-    public ShipmentService(ShipmentsDbContext db)
+    public ShipmentService(ShipmentsDbContext db, UserManager<AppUser> userManager)
     {
         _db = db;
+        _userManager = userManager;
     }
+
+    
 
     public async Task<ShipmentDetailsDto> CreateAsync(CreateShipmentRequest request, string userId)
     {
+        var now = DateTimeOffset.UtcNow;
+
         var shipment = new Shipment
         {
             ClientId = userId,
@@ -30,8 +39,8 @@ public class ShipmentService : IShipmentService
             RecipientPostalCode = request.RecipientPostalCode,
             RecipientPhone = request.RecipientPhone,
             Status = ShipmentStatus.Created,
-            CreatedAtUtc = DateTimeOffset.UtcNow,
-            UpdatedAtUtc = DateTimeOffset.UtcNow
+            CreatedAtUtc = now,
+            UpdatedAtUtc = now
         };
 
         var createdEvent = new ShipmentEvent
@@ -42,7 +51,7 @@ public class ShipmentService : IShipmentService
             PerformedByUserId = userId,
             PerformedByRole = Roles.Client,
             Notes = request.Notes,
-            OccurredAtUtc = DateTimeOffset.UtcNow
+            OccurredAtUtc = now
         };
 
         shipment.Events.Add(createdEvent);
@@ -52,6 +61,8 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
+
+    
 
     public async Task<ShipmentDetailsDto> UpdateStatusAsync(
         int shipmentId,
@@ -66,6 +77,7 @@ public class ShipmentService : IShipmentService
         if (shipment is null)
             throw new KeyNotFoundException("Shipment not found");
 
+        
         if (performedByRole == Roles.Courier && shipment.CourierId != performedByUserId)
             throw new InvalidOperationException("Courier has no access to this shipment");
 
@@ -100,6 +112,8 @@ public class ShipmentService : IShipmentService
         return MapDetails(shipment);
     }
 
+    
+
     public async Task<ShipmentDetailsDto> AssignCourierAsync(
         int shipmentId,
         string courierId,
@@ -113,8 +127,18 @@ public class ShipmentService : IShipmentService
         if (shipment is null)
             throw new KeyNotFoundException("Shipment not found");
 
+        
         if (shipment.Status == ShipmentStatus.Delivered)
             throw new InvalidOperationException("Cannot assign courier to delivered shipment");
+
+        
+        var courier = await _userManager.FindByIdAsync(courierId);
+        if (courier is null)
+            throw new InvalidOperationException("Courier not found");
+
+        var isCourier = await _userManager.IsInRoleAsync(courier, Roles.Courier);
+        if (!isCourier)
+            throw new InvalidOperationException("User is not in Courier role");
 
         shipment.CourierId = courierId;
         shipment.UpdatedAtUtc = DateTimeOffset.UtcNow;
@@ -136,6 +160,9 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
+
+    
+
     public async Task<ShipmentDetailsDto> GetDetailsForClientAsync(int shipmentId, string clientId)
     {
         var shipment = await _db.Shipments
@@ -180,6 +207,9 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
+
+    
+
     public async Task<ShipmentDetailsDto> CancelAsync(int shipmentId, CancelShipmentRequest request, string clientId)
     {
         var shipment = await _db.Shipments
@@ -222,6 +252,9 @@ public class ShipmentService : IShipmentService
 
         return MapDetails(shipment);
     }
+
+    
+
     public async Task<List<ShipmentListItemDto>> GetForClientAsync(string clientId)
     {
         var list = await _db.Shipments.AsNoTracking()
@@ -250,6 +283,42 @@ public class ShipmentService : IShipmentService
 
         return list.OrderByDescending(x => x.CreatedAtUtc).ToList();
     }
+
+   
+
+    public async Task<List<CourierListItemDto>> GetCouriersAsync(bool onlyFree)
+    {
+        var couriers = await _userManager.GetUsersInRoleAsync(Roles.Courier);
+        var courierIds = couriers.Select(c => c.Id).ToList();
+
+        var activeCounts = await _db.Shipments.AsNoTracking()
+            .Where(s => s.CourierId != null && courierIds.Contains(s.CourierId))
+            .Where(s => s.Status != ShipmentStatus.Delivered && s.Status != ShipmentStatus.Canceled)
+            .GroupBy(s => s.CourierId!)
+            .Select(g => new { CourierId = g.Key, Count = g.Count() })
+            .ToListAsync();
+
+        var dict = activeCounts.ToDictionary(x => x.CourierId, x => x.Count);
+
+        var result = couriers.Select(c =>
+        {
+            dict.TryGetValue(c.Id, out var cnt);
+            return new CourierListItemDto
+            {
+                Id = c.Id,
+                Email = c.Email ?? c.UserName ?? c.Id,
+                ActiveShipmentsCount = cnt,
+                IsFree = cnt == 0
+            };
+        }).ToList();
+
+        if (onlyFree)
+            result = result.Where(x => x.IsFree).ToList();
+
+        return result;
+    }
+
+   
 
     private static ShipmentDetailsDto MapDetails(Shipment shipment) => new()
     {

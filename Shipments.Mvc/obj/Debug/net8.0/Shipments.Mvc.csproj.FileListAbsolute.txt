@@ -66,3 +66,4 @@ C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\refin
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\Shipments.Mvc.pdb
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\Shipments.Mvc.genruntimeconfig.cache
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\ref\Shipments.Mvc.dll
+C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Mvc\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -52,4 +52,12 @@ public class AdminShipmentsController : ControllerBase
         var dto = await _service.UpdateStatusAsync(id, request, adminId, Roles.Admin);
         return Ok(dto);
     }
+
+    [HttpGet("couriers")]
+    public async Task<IActionResult> Couriers([FromQuery] bool onlyFree = false)
+    {
+        var list = await _service.GetCouriersAsync(onlyFree);
+        return Ok(list);
+    }
+
 }

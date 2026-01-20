@@ -1,4 +1,5 @@
-﻿using Shipments.Shared.Contracts.Couriers.Requests;
+﻿using Shipments.Shared.Contracts.Admin;
+using Shipments.Shared.Contracts.Couriers.Requests;
 using Shipments.Shared.Contracts.Shipments.Requests;
 using Shipments.Shared.Contracts.Shipments.Responses;
 
@@ -18,5 +19,7 @@ public interface IShipmentService
     Task<List<ShipmentListItemDto>> GetForClientAsync(string clientId);
     Task<List<ShipmentListItemDto>> GetForCourierAsync(string courierId);
     Task<List<ShipmentListItemDto>> GetAllAsync();
+    Task<List<CourierListItemDto>> GetCouriersAsync(bool onlyFree);
+
 
 }

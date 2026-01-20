@@ -1,8 +1,9 @@
-﻿using System.Security.Claims;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text.Json;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
 
 namespace Shipments.Mvc.Controllers;
 
@@ -28,33 +29,35 @@ public class AuthController : Controller
         string password,
         string? returnUrl = null)
     {
-        var json = await _api.PostAsync<JsonElement>(
-            "/api/auth/login",
-            new { Email = email, Password = password }
-        );
+        JsonElement response;
 
-        if (json.ValueKind == JsonValueKind.Undefined)
+        try
+        {
+            response = await _api.PostAsync<JsonElement>(
+                "/api/Auth/login",   
+                new { Email = email, Password = password }
+            );
+        }
+        catch
         {
             ModelState.AddModelError("", "Invalid email or password");
             return View();
         }
 
-        var token = json.GetProperty("token").GetString();
-        var role = json.GetProperty("role").GetString();
-        var mail = json.GetProperty("email").GetString();
-
-        if (token is null || role is null)
+        
+        var token = response.GetProperty("token").GetString();
+        if (string.IsNullOrEmpty(token))
         {
             ModelState.AddModelError("", "Invalid login response");
             return View();
         }
 
-        var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Name, mail ?? email),
-            new Claim(ClaimTypes.Role, role),
-            new Claim("access_token", token)
-        };
+        // 🔹 ODCZYT CLAIMÓW Z JWT
+        var handler = new JwtSecurityTokenHandler();
+        var jwt = handler.ReadJwtToken(token);
+
+        var claims = jwt.Claims.ToList();
+        claims.Add(new Claim("access_token", token));
 
         var identity = new ClaimsIdentity(
             claims,
@@ -66,13 +69,18 @@ public class AuthController : Controller
             new ClaimsPrincipal(identity)
         );
 
-        return RedirectAfterLogin(role, returnUrl);
+        // 🔹 REDIRECT
+        return RedirectAfterLogin(claims, returnUrl);
     }
 
-    private IActionResult RedirectAfterLogin(string role, string? returnUrl)
+    private IActionResult RedirectAfterLogin(
+        List<Claim> claims,
+        string? returnUrl)
     {
         if (!string.IsNullOrEmpty(returnUrl))
             return Redirect(returnUrl);
+
+        var role = claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)?.Value;
 
         return role switch
         {

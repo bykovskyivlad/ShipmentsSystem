@@ -34,12 +34,6 @@ C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\obj\Debug\net8.0\Shipm
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\obj\Debug\net8.0\Shipments.Api.genruntimeconfig.cache
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\obj\Debug\net8.0\ref\Shipments.Api.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\obj\Debug\net8.0\Shipments.Api.sourcelink.json
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.deps.json
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.runtimeconfig.json
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.staticwebassets.runtime.json
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.staticwebassets.endpoints.json
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.exe
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Api.staticwebassets.runtime.json
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Humanizer.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -155,9 +149,7 @@ C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\runti
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.dll
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Shared.dll
-C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Mvc.pdb
 C:\Users\vlady\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\Shipments.Shared.pdb
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipments.Api\bin\Debug\net8.0\appsettings.json

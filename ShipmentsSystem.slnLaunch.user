@@ -3,6 +3,10 @@
     "Name": "Nowy Profil",
     "Projects": [
       {
+        "Path": "Shipments.Mvc\\Shipments.Mvc.csproj",
+        "Action": "Start"
+      },
+      {
         "Path": "Shipments.Api\\Shipments.Api.csproj",
         "Action": "Start"
       }

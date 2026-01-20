@@ -7,6 +7,9 @@ namespace Shipments.Api.Services;
 public interface IShipmentService
 {
     Task<ShipmentDetailsDto> CreateAsync(CreateShipmentRequest request, string userId);
+    Task<ShipmentDetailsDto> GetDetailsForClientAsync(int shipmentId, string clientId);
+    Task<ShipmentDetailsDto> GetDetailsForCourierAsync(int shipmentId, string courierId);
+    Task<ShipmentDetailsDto> GetDetailsForAdminAsync(int shipmentId);
 
     Task<ShipmentDetailsDto> UpdateStatusAsync(int shipmentId, UpdateShipmentStatusRequest request, string performedByUserId, string performedByRole);
     Task<ShipmentDetailsDto> AssignCourierAsync(int shipmentId, string courierId, string performedByUserId, string performedByRole);

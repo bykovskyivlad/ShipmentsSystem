@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shipments.Mvc\Shipments.Mvc.csproj" />
     <ProjectReference Include="..\Shipmets.Shared\Shipments.Shared.csproj" />
   </ItemGroup>
 

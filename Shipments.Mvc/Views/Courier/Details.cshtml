@@ -1,0 +1,45 @@
+﻿@model ShipmentDetailsDto
+@using Shipments.Shared.Domain.Enums
+
+<h2>Shipment #@Model.Id</h2>
+
+<p><strong>Status:</strong> @Model.Status</p>
+<p><strong>Recipient:</strong> @Model.RecipientName</p>
+<p><strong>Address:</strong> @Model.RecipientAddress</p>
+
+<hr />
+
+<h3>Update status</h3>
+
+<form asp-action="UpdateStatus" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <select name="newStatus">
+        @foreach (ShipmentStatus s in Enum.GetValues(typeof(ShipmentStatus)))
+        {
+            <option value="@s">@s</option>
+        }
+    </select>
+
+    <textarea name="notes" placeholder="Notes"></textarea>
+
+    <button type="submit">Update</button>
+</form>
+
+<hr />
+
+<h3>History</h3>
+<ul>
+    @foreach (var e in Model.Events)
+    {
+        <li>
+            @e.OccurredAtUtc:
+            @e.OldStatus → @e.NewStatus
+            (@e.PerformedByRole)
+            @if (!string.IsNullOrEmpty(e.Notes))
+            {
+                <span>— @e.Notes</span>
+            }
+        </li>
+    }
+</ul>

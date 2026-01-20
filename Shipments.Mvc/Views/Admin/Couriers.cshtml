@@ -1,0 +1,33 @@
+﻿@model List<CourierListItemDto>
+
+<h2>Couriers</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Active shipments</th>
+            <th>Free</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Email</td>
+                <td>@c.ActiveShipmentsCount</td>
+                <td>@c.IsFree</td>
+                <td>
+                    <form asp-action="AssignCourier" method="post">
+                        <input type="hidden" name="shipmentId"
+                               value="@ViewBag.ShipmentId" />
+                        <input type="hidden" name="courierId"
+                               value="@c.Id" />
+                        <button type="submit">Assign</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

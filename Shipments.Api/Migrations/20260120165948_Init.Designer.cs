@@ -11,8 +11,8 @@ using Shipments.Api.Data;
 namespace Shipments.Api.Migrations
 {
     [DbContext(typeof(ShipmentsDbContext))]
-    [Migration("20260119141445_init")]
-    partial class init
+    [Migration("20260120165948_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shipments.Mvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+387bb71aec38461a9a45e070c7daa3efde422840")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+946cd92dbf162a5b1c547b5b1ea444c3886a655d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shipments.Mvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shipments.Mvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,27 @@
+﻿@model ShipmentDetailsDto
+
+<h2>Shipment #@Model.Id</h2>
+
+<p>Status: <strong>@Model.Status</strong></p>
+<p>Recipient: @Model.RecipientName</p>
+<p>City: @Model.RecipientCity</p>
+
+@if (Model.Status.ToString() == "Created")
+{
+    <form asp-action="Cancel" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit">Cancel shipment</button>
+    </form>
+}
+
+<h3>History</h3>
+<ul>
+    @foreach (var e in Model.Events)
+    {
+        <li>
+            @e.OccurredAtUtc:
+            @e.OldStatus → @e.NewStatus
+            (@e.PerformedByRole)
+        </li>
+    }
+</ul>

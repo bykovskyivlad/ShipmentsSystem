@@ -35,6 +35,15 @@
             @RenderBody()
         </main>
     </div>
+    @if (!User.Identity!.IsAuthenticated)
+    {
+        <a asp-controller="Auth" asp-action="Login">Login</a>
+    }
+    else
+    {
+        <span>Hello @User.Identity.Name</span>
+        <a asp-controller="Auth" asp-action="Logout">Logout</a>
+    }
 
     <footer class="border-top footer text-muted">
         <div class="container">

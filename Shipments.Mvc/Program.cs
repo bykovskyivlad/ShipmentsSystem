@@ -2,37 +2,69 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
+//
+// =====================
+// SERVICES
+// =====================
+//
+
 // MVC
 builder.Services.AddControllersWithViews();
 
-// 🔹 HttpClient do API
+// HttpClient → API
 builder.Services.AddHttpClient("Api", client =>
 {
     var baseUrl = builder.Configuration["Api:BaseUrl"];
     client.BaseAddress = new Uri(baseUrl!);
 });
 
-// 🔹 POTRZEBNE dla ApiClient
+// potrzebne dla ApiClient (JWT z cookie)
 builder.Services.AddHttpContextAccessor();
 
-// 🔹 ApiClient
+// ApiClient (MVC → API)
 builder.Services.AddScoped<ApiClient>();
 
-// 🔹 Cookie Authentication (TYLKO RAZ)
+// Cookie Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
         options.LoginPath = "/Auth/Login";
         options.AccessDeniedPath = "/Auth/Login";
+
+        // bezpieczeństwo (HTTPS)
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.Cookie.SameSite = SameSiteMode.Lax;
+        options.Cookie.HttpOnly = true;
     });
 
+// Authorization (role)
 builder.Services.AddAuthorization();
+
+
+//
+// =====================
+// APP
+// =====================
+//
 
 var app = builder.Build();
 
-if (!app.Environment.IsDevelopment())
+
+//
+// =====================
+// MIDDLEWARE
+// =====================
+//
+
+// errors
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -43,9 +75,16 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Routing MVC
+
+//
+// =====================
+// ROUTING
+// =====================
+//
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();

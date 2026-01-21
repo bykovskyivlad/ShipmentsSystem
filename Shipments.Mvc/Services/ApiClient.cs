@@ -44,6 +44,14 @@ public class ApiClient
         return await res.Content.ReadFromJsonAsync<T>();
     }
 
+    // ⭐ KLUCZOWA METODA
+    public async Task PostAsync(string url, object body)
+    {
+        var client = CreateClient();
+        var res = await client.PostAsJsonAsync(url, body);
+        res.EnsureSuccessStatusCode();
+    }
+
     public async Task PatchAsync(string url, object body)
     {
         var client = CreateClient();

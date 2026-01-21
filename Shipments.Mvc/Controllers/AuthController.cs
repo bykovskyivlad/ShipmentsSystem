@@ -23,24 +23,29 @@ public class AuthController : Controller
         ViewBag.ReturnUrl = returnUrl;
         return View();
     }
+
     [HttpGet]
     public IActionResult Register()
     {
-        return View(new RegisterRequest("", "", "Client"));
+        return View(new RegisterRequest("", "", Roles.Client));
     }
+
     [HttpPost]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
+        if (!ModelState.IsValid)
+            return View(request);
+
         try
         {
-            await _api.PostAsync<object>(
+            await _api.PostAsync(
                 "/api/auth/register",
                 request
             );
         }
-        catch
+        catch (Exception ex)
         {
-            ModelState.AddModelError("", "Registration failed");
+            ModelState.AddModelError("", ex.Message);
             return View(request);
         }
 
@@ -48,8 +53,7 @@ public class AuthController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Login
-    (
+    public async Task<IActionResult> Login(
         string email,
         string password,
         string? returnUrl = null)
@@ -62,7 +66,6 @@ public class AuthController : Controller
                 "/api/auth/login",
                 new { Email = email, Password = password }
             );
-
         }
         catch
         {
@@ -70,19 +73,11 @@ public class AuthController : Controller
             return View();
         }
 
-        
         var token = response.GetProperty("token").GetString();
-        if (string.IsNullOrEmpty(token))
-        {
-            ModelState.AddModelError("", "Invalid login response");
-            return View();
-        }
-
-        var handler = new JwtSecurityTokenHandler();
-        var jwt = handler.ReadJwtToken(token);
+        var jwt = new JwtSecurityTokenHandler().ReadJwtToken(token!);
 
         var claims = jwt.Claims.ToList();
-        claims.Add(new Claim("access_token", token));
+        claims.Add(new Claim("access_token", token!));
 
         var identity = new ClaimsIdentity(
             claims,
@@ -108,9 +103,9 @@ public class AuthController : Controller
 
         return role switch
         {
-            "Client" => RedirectToAction("Index", "Shipments"),
-            "Courier" => RedirectToAction("Index", "Courier"),
-            "Admin" => RedirectToAction("Index", "Admin"),
+            Roles.Client => RedirectToAction("Index", "Shipments"),
+            Roles.Courier => RedirectToAction("Index", "Courier"),
+            Roles.Admin => RedirectToAction("Index", "Admin"),
             _ => RedirectToAction("Index", "Home")
         };
     }

@@ -3,28 +3,22 @@
 <h2>Register</h2>
 
 <form method="post">
-    <div>
-        <label>Email</label>
-        <input asp-for="Email" />
-    </div>
+    <label>Email</label>
+    <input asp-for="Email" />
 
-    <div>
-        <label>Password</label>
-        <input asp-for="Password" type="password" />
-    </div>
+    <label>Password</label>
+    <input asp-for="Password" type="password" />
 
-    <div>
-        <label>Role</label>
-        <select asp-for="Role">
-            <option value="Client">Client</option>
-            <option value="Courier">Courier</option>
-        </select>
-    </div>
+    <label>Role</label>
+    <select asp-for="Role">
+        <option value="Client">Client</option>
+        <option value="Courier">Courier</option>
+    </select>
 
     <button type="submit">Register</button>
 </form>
 
-@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+@foreach (var err in ViewData.ModelState.Values.SelectMany(v => v.Errors))
 {
-    <p style="color:red">@error.ErrorMessage</p>
+    <p style="color:red">@err.ErrorMessage</p>
 }

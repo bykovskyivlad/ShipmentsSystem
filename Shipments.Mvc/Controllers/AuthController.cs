@@ -1,9 +1,10 @@
-﻿using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text.Json;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using Shipments.Shared.Auth;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text.Json;
 
 namespace Shipments.Mvc.Controllers;
 
@@ -22,9 +23,33 @@ public class AuthController : Controller
         ViewBag.ReturnUrl = returnUrl;
         return View();
     }
+    [HttpGet]
+    public IActionResult Register()
+    {
+        return View(new RegisterRequest("", "", "Client"));
+    }
+    [HttpPost]
+    public async Task<IActionResult> Register(RegisterRequest request)
+    {
+        try
+        {
+            await _api.PostAsync<object>(
+                "/api/auth/register",
+                request
+            );
+        }
+        catch
+        {
+            ModelState.AddModelError("", "Registration failed");
+            return View(request);
+        }
+
+        return RedirectToAction("Login");
+    }
 
     [HttpPost]
-    public async Task<IActionResult> Login(
+    public async Task<IActionResult> Login
+    (
         string email,
         string password,
         string? returnUrl = null)
@@ -53,7 +78,6 @@ public class AuthController : Controller
             return View();
         }
 
-        // 🔹 ODCZYT CLAIMÓW Z JWT
         var handler = new JwtSecurityTokenHandler();
         var jwt = handler.ReadJwtToken(token);
 
@@ -70,7 +94,6 @@ public class AuthController : Controller
             new ClaimsPrincipal(identity)
         );
 
-        // 🔹 REDIRECT
         return RedirectAfterLogin(claims, returnUrl);
     }
 

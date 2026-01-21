@@ -34,9 +34,10 @@ public class AuthController : Controller
         try
         {
             response = await _api.PostAsync<JsonElement>(
-                "/api/Auth/login",   
+                "/api/auth/login",
                 new { Email = email, Password = password }
             );
+
         }
         catch
         {

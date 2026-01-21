@@ -3,9 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shipments.Shared.Contracts.Shipments.Requests;
 using Shipments.Shared.Contracts.Shipments.Responses;
 
-namespace Shipments.Mvc.Controllers;
-
-[Authorize]
+[Authorize(Roles = "Client")]
 public class ShipmentsController : Controller
 {
     private readonly ApiClient _api;
@@ -18,7 +16,7 @@ public class ShipmentsController : Controller
     public async Task<IActionResult> Index()
     {
         var shipments = await _api.GetAsync<List<ShipmentListItemDto>>(
-            "/api/client/shipments"
+            "/api/shipments/mine"
         );
 
         return View(shipments);
@@ -46,7 +44,7 @@ public class ShipmentsController : Controller
     public async Task<IActionResult> Details(int id)
     {
         var shipment = await _api.GetAsync<ShipmentDetailsDto>(
-            $"/api/client/shipments/{id}"
+            $"/api/shipments/{id}"
         );
 
         return View(shipment);

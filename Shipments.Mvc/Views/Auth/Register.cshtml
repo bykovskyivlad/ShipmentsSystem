@@ -1,0 +1,30 @@
+﻿@model Shipments.Shared.Auth.RegisterRequest
+
+<h2>Register</h2>
+
+<form method="post">
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input asp-for="Password" type="password" />
+    </div>
+
+    <div>
+        <label>Role</label>
+        <select asp-for="Role">
+            <option value="Client">Client</option>
+            <option value="Courier">Courier</option>
+        </select>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <p style="color:red">@error.ErrorMessage</p>
+}

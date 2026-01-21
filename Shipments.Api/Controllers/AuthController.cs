@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Shipments.Api.Models;
 using Shipments.Api.Services;
+using Shipments.Shared.Auth;
 
 namespace Shipments.Api.Controllers;
 
@@ -22,17 +24,27 @@ public class AuthController : ControllerBase
     public record LoginRequest(string Email, string Password);
 
     [HttpPost("register")]
+    [AllowAnonymous]
     public async Task<IActionResult> Register(RegisterRequest req)
     {
-        var user = new AppUser { UserName = req.Email, Email = req.Email };
+        if (req.Role != Roles.Client && req.Role != Roles.Courier)
+            return BadRequest("Invalid role");
+
+        var user = new AppUser
+        {
+            UserName = req.Email,
+            Email = req.Email
+        };
+
         var result = await _userManager.CreateAsync(user, req.Password);
-        if (!result.Succeeded) return BadRequest(result.Errors);
+        if (!result.Succeeded)
+            return BadRequest(result.Errors);
 
         var roleResult = await _userManager.AddToRoleAsync(user, req.Role);
-        if (!roleResult.Succeeded) return BadRequest(roleResult.Errors);
+        if (!roleResult.Succeeded)
+            return BadRequest(roleResult.Errors);
 
-        var token = await _tokenService.CreateTokenAsync(user);
-        return Ok(new { token });
+        return Ok();
     }
 
     [HttpPost("login")]

@@ -12,18 +12,24 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Shipments.Mvc</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    Shipments.Mvc
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark"
+                               asp-controller="Home"
+                               asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark"
+                               asp-controller="Home"
+                               asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>
@@ -38,16 +44,40 @@
     @if (!User.Identity!.IsAuthenticated)
     {
         <a asp-controller="Auth" asp-action="Login">Login</a>
+        <span> | </span>
+        <a asp-controller="Auth" asp-action="Register">Register</a>
     }
     else
     {
         <span>Hello @User.Identity.Name</span>
+        <span> | </span>
         <a asp-controller="Auth" asp-action="Logout">Logout</a>
-    }
 
+        @* Client *@
+        @if (User.IsInRole("Client"))
+        {
+            <span> | </span>
+            <a asp-controller="Shipments" asp-action="Index">My shipments</a>
+        }
+
+        @* Courier *@
+        @if (User.IsInRole("Courier"))
+        {
+            <span> | </span>
+            <a asp-controller="Courier" asp-action="Index">Courier panel</a>
+        }
+
+        @* Admin *@
+        @if (User.IsInRole("Admin"))
+        {
+            <span> | </span>
+            <a asp-controller="Admin" asp-action="Index">Admin panel</a>
+        }
+    }
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2026 - Shipments.Mvc - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2026 - Shipments.Mvc -
+            <a asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

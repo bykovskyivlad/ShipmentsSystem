@@ -1,5 +1,11 @@
-.vs/
+## .NET
 bin/
 obj/
+
+## Visual Studio
+.vs/
 *.user
 *.suo
+
+## Logs
+*.log

@@ -1,0 +1,46 @@
+﻿@model ShipmentDetailsDto
+@using Shipments.Shared.Domain.Enums
+
+<h2>Shipment @Model.Id</h2>
+
+<p><b>Status:</b> @Model.Status</p>
+<p><b>Recipient:</b> @Model.RecipientName</p>
+<p><b>City:</b> @Model.RecipientCity</p>
+
+<hr />
+
+<h3>Change status</h3>
+
+<form asp-action="UpdateStatus" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div>
+        <label>New status</label>
+        <select name="status">
+            @if (Model.Status == ShipmentStatus.Created)
+            {
+                <option value="@ShipmentStatus.PickedUp">PickedUp</option>
+            }
+            else if (Model.Status == ShipmentStatus.PickedUp)
+            {
+                <option value="@ShipmentStatus.OutForDelivery">OutForDelivery</option>
+            }
+            else if (Model.Status == ShipmentStatus.OutForDelivery)
+            {
+                <option value="@ShipmentStatus.Delivered">Delivered</option>
+                <option value="@ShipmentStatus.DeliveryFailed">DeliveryFailed</option>
+            }
+            else
+            {
+                <option disabled>Final status</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Notes</label>
+        <textarea name="notes"></textarea>
+    </div>
+
+    <button type="submit">Update</button>
+</form>

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Shipments.Api.Models;
 using Shipments.Api.Services;
 using Shipments.Shared.Auth;
+using System.Security.Claims;
 
 namespace Shipments.Api.Controllers;
 
@@ -22,8 +23,12 @@ public class AuthController : ControllerBase
         _tokenService = tokenService;
     }
 
+
     public record RegisterRequest(string Email, string Password, string Role);
     public record LoginRequest(string Email, string Password);
+    public record ChangePasswordRequest(string OldPassword, string NewPassword);
+
+   
 
     [HttpPost("register")]
     [AllowAnonymous]
@@ -35,7 +40,8 @@ public class AuthController : ControllerBase
         var user = new AppUser
         {
             UserName = req.Email,
-            Email = req.Email
+            Email = req.Email,
+            MustChangePassword = false
         };
 
         var result = await _userManager.CreateAsync(user, req.Password);
@@ -46,8 +52,10 @@ public class AuthController : ControllerBase
         if (!roleResult.Succeeded)
             return BadRequest(roleResult.Errors);
 
-        return Ok(); // <-- celowo bez body
+        return Ok();
     }
+
+  
 
     [HttpPost("login")]
     [AllowAnonymous]
@@ -62,6 +70,44 @@ public class AuthController : ControllerBase
             return Unauthorized("Invalid credentials");
 
         var token = await _tokenService.CreateTokenAsync(user);
-        return Ok(new { token });
+
+        return Ok(new
+        {
+            token,
+            mustChangePassword = user.MustChangePassword
+        });
+    }
+
+   
+
+    [HttpPost("change-password")]
+    [Authorize]
+    public async Task<IActionResult> ChangePassword(ChangePasswordRequest req)
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId is null)
+            return Unauthorized();
+
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user is null)
+            return Unauthorized();
+
+        var result = await _userManager.ChangePasswordAsync(
+            user,
+            req.OldPassword,
+            req.NewPassword
+        );
+
+        if (!result.Succeeded)
+            return BadRequest(result.Errors);
+
+        
+        if (user.MustChangePassword)
+        {
+            user.MustChangePassword = false;
+            await _userManager.UpdateAsync(user);
+        }
+
+        return Ok();
     }
 }

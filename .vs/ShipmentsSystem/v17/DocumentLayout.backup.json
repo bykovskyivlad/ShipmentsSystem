@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\couriers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\admin\\couriers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,18 +167,6 @@
       "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -183,16 +191,8 @@
       "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -258,7 +258,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -266,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Auth\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Auth\\RegisterRequest.cs",
@@ -279,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shared\\Error.cshtml",
@@ -292,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -305,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Home\\Privacy.cshtml",
@@ -318,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Home\\Index.cshtml",
@@ -344,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "CancelShipmentRequest.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Requests\\CancelShipmentRequest.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Requests\\CancelShipmentRequest.cs",
@@ -370,13 +370,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 2,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-22T16:47:02.564Z",
               "EditorCaption": ""
@@ -395,20 +395,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Couriers.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-22T16:12:46.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Details.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Admin\\Details.cshtml",
@@ -434,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\AdminController.cs",
@@ -447,20 +447,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Details.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Courier\\Details.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Details.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Courier\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-22T16:02:03.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Index.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Courier\\Index.cshtml",
@@ -473,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "CourierController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\CourierController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\CourierController.cs",
@@ -509,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
@@ -522,59 +522,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 3,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Auth\\Register.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Register.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-21T20:30:59.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-21T19:32:25.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-21T19:31:44.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-21T19:30:31.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Models\\ErrorViewModel.cs",
@@ -587,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\HomeController.cs",
@@ -613,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ShipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\ShipmentsController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\ShipmentsController.cs",
@@ -626,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CouriersShipmentaController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\CouriersShipmentaController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\CouriersShipmentaController.cs",
@@ -651,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Services\\TokenService.cs",
@@ -664,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Services\\ApiClient.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Services\\ApiClient.cs",
@@ -677,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\AuthController.cs",
@@ -702,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Program.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Program.cs",
@@ -715,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shared\\_Layout.cshtml",
@@ -728,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Auth\\Login.cshtml",
@@ -753,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "AdminShipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\AdminShipmentsController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\AdminShipmentsController.cs",
@@ -766,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\AuthController.cs",
@@ -779,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "CourierListItemDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Admin\\CourierListItemDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Admin\\CourierListItemDto.cs",
@@ -792,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ShipmentService.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\ShipmentService.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Services\\ShipmentService.cs",
@@ -805,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "IShipmentService.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\IShipmentService.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Services\\IShipmentService.cs",
@@ -830,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ShipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\ShipmentsController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\ShipmentsController.cs",
@@ -843,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IdentitySeed.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Data\\IdentitySeed.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Data\\IdentitySeed.cs",
@@ -868,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Models\\AppUser.cs",
@@ -893,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ShipmentsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Data\\ShipmentsDbContext.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Data\\ShipmentsDbContext.cs",
@@ -918,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "UpdateShipmentStatusRequest.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Couriers\\Requests\\UpdateShipmentStatusRequest.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Couriers\\Requests\\UpdateShipmentStatusRequest.cs",
@@ -931,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "ShipmentListItemDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentListItemDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentListItemDto.cs",
@@ -944,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "ShipmentEventDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentEventDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentEventDto.cs",
@@ -957,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "ShipmentDetailsDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentDetailsDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentDetailsDto.cs",
@@ -970,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "CreateShipmentRequest.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Requests\\CreateShipmentRequest.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Requests\\CreateShipmentRequest.cs",
@@ -983,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "ShipmentStatusTransitions.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
@@ -996,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "ShipmentEvent.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
@@ -1009,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Shipment.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
@@ -1022,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "ShipmentStatus.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
@@ -1035,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Auth\\Roles.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Auth\\Roles.cs",
@@ -1048,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Program.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Program.cs",

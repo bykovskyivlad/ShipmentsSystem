@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipments.Api\\Shipments.Api.csproj": {}
+    "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipments.Api\\Shipments.Api.csproj": {
+    "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipments.Api\\Shipments.Api.csproj",
+        "projectUniqueName": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.csproj",
         "projectName": "Shipments.Api",
-        "projectPath": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipments.Api\\Shipments.Api.csproj",
-        "packagesPath": "C:\\Users\\Pawlik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipments.Api\\obj\\",
+        "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.csproj",
+        "packagesPath": "C:\\Users\\vlady\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pawlik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlady\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipmets.Shared\\Shipments.Shared.csproj": {
-                "projectPath": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipmets.Shared\\Shipments.Shared.csproj"
+              "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj": {
+                "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj"
               }
             }
           }
@@ -48,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -110,24 +111,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipmets.Shared\\Shipments.Shared.csproj": {
+    "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipmets.Shared\\Shipments.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj",
         "projectName": "Shipments.Shared",
-        "projectPath": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipmets.Shared\\Shipments.Shared.csproj",
-        "packagesPath": "C:\\Users\\Pawlik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pawlik\\Downloads\\ShipmentsSystem-main2\\Shipmets.Shared\\obj\\",
+        "projectPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Shipments.Shared.csproj",
+        "packagesPath": "C:\\Users\\vlady\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Pawlik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlady\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -136,6 +137,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -154,7 +156,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -175,7 +177,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

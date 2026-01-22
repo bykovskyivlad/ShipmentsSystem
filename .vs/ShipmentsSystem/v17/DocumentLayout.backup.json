@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122195654_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shipments.Api\\Migrations\\20260122195654_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122163116_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shipments.Api\\Migrations\\20260122163116_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122155339_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shipments.Api\\Migrations\\20260122155339_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\admin\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\couriers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,104 +15,8 @@
       "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\couriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\couriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\shipments.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\shipments.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\controllers\\couriersshipmentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\controllers\\couriersshipmentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\shipments.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\shipments.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\services\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\controllers\\adminshipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\contracts\\admin\\courierlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\contracts\\admin\\courierlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\services\\shipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\services\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\controllers\\couriersshipmentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\controllers\\couriersshipmentacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -167,28 +39,76 @@
       "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\data\\identityseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\shipments.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\shipments.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\data\\shipmentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\data\\shipmentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\services\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\data\\shipmentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\data\\shipmentsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\shipments.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\shipments.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\contracts\\couriers\\requests\\updateshipmentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\contracts\\couriers\\requests\\updateshipmentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\couriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\couriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\controllers\\shipmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\rules\\shipmentstatustransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\rules\\shipmentstatustransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipmentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipmentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\contracts\\shipments\\responses\\shipmentlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -207,28 +127,128 @@
       "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\contracts\\shipments\\requests\\createshipmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\rules\\shipmentstatustransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\rules\\shipmentstatustransitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\contracts\\shipments\\requests\\cancelshipmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\contracts\\shipments\\requests\\cancelshipmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipmentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipmentevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\contracts\\couriers\\requests\\updateshipmentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\contracts\\couriers\\requests\\updateshipmentstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\domain\\enums\\shipmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\contracts\\admin\\courierlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\contracts\\admin\\courierlistitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\auth\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\auth\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipmets.shared\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EDC56C-B032-4716-8853-561498F30AFB}|Shipmets.Shared\\Shipments.Shared.csproj|solutionrelative:shipmets.shared\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shipments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\courier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\courier\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\auth\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122195654_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shipments.Api\\Migrations\\20260122195654_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122163116_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shipments.Api\\Migrations\\20260122163116_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122155339_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shipments.Api\\Migrations\\20260122155339_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\shipments.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\shipments.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.mvc\\shipments.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82DDECA3-EC92-4DBE-B514-A8F0BE0D0274}|Shipments.Mvc\\Shipments.Mvc.csproj|solutionrelative:shipments.mvc\\shipments.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\shipments.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\shipments.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|c:\\users\\vlady\\source\\repos\\shipmentssystem\\shipments.api\\shipments.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96DCCBFE-8FE9-48C8-B0C9-2DED551212BD}|Shipments.Api\\Shipments.Api.csproj|solutionrelative:shipments.api\\shipments.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -238,7 +258,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -246,7 +266,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 35,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Shipmets.Shared\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "Shipmets.Shared\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T20:37:27.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Shipments.Mvc\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T20:37:15.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Shipments.Mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T20:37:14.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Shipments.Mvc\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T20:37:06.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Shipments.Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T20:37:02.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Shipments.Mvc\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-22T20:36:08.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CancelShipmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Requests\\CancelShipmentRequest.cs",
+              "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Requests\\CancelShipmentRequest.cs",
+              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Requests\\CancelShipmentRequest.cs",
+              "RelativeToolTip": "Shipmets.Shared\\Contracts\\Shipments\\Requests\\CancelShipmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T20:04:09.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "20260122195654_Init.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122195654_Init.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Migrations\\20260122195654_Init.cs",
@@ -259,44 +370,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Courier\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Details.cshtml.cs",
-              "RelativeToolTip": "Shipments.Mvc\\Views\\Courier\\Details.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:33:40.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Admin\\Details.cshtml.cs",
-              "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Details.cshtml.cs",
-              "RelativeToolTip": "Shipments.Mvc\\Views\\Admin\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:09:55.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 47,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Auth\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:47:02.564Z"
+              "WhenOpened": "2026-01-22T16:47:02.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 52,
               "Title": "20260122163116_Init.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122163116_Init.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Migrations\\20260122163116_Init.cs",
@@ -308,91 +395,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Couriers.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Admin\\Couriers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:12:46.843Z"
+              "WhenOpened": "2026-01-22T16:12:46.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Details.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Admin\\Details.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Details.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Admin\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:12:09.74Z"
+              "WhenOpened": "2026-01-22T16:12:09.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 48,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Admin\\Index.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:11:35.847Z"
+              "WhenOpened": "2026-01-22T16:11:35.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Shipments.Mvc\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:10:36.825Z"
+              "WhenOpened": "2026-01-22T16:10:36.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Details.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Courier\\Details.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Details.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Courier\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:02:03.094Z"
+              "WhenOpened": "2026-01-22T16:02:03.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Index.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Courier\\Index.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Courier\\Index.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Courier\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-22T16:00:58.937Z"
+              "WhenOpened": "2026-01-22T16:00:58.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "CourierController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\CourierController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\CourierController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\CourierController.cs",
               "RelativeToolTip": "Shipments.Mvc\\Controllers\\CourierController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T15:59:37.427Z"
+              "WhenOpened": "2026-01-22T15:59:37.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 53,
               "Title": "20260122155339_Init.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Migrations\\20260122155339_Init.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Migrations\\20260122155339_Init.cs",
@@ -404,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 54,
               "Title": "Shipments.Api",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.csproj",
               "RelativeDocumentMoniker": "Shipments.Api\\Shipments.Api.csproj",
@@ -415,67 +509,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeToolTip": "Shipments.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T15:50:40.006Z"
+              "WhenOpened": "2026-01-22T15:50:40.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 45,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Auth\\Register.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Register.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T20:30:59.202Z"
+              "WhenOpened": "2026-01-21T20:30:59.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 38,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shipments\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T19:32:25.524Z"
+              "WhenOpened": "2026-01-21T19:32:25.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 37,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shipments\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T19:31:44.147Z"
+              "WhenOpened": "2026-01-21T19:31:44.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shipments\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T19:30:31.205Z"
+              "WhenOpened": "2026-01-21T19:30:31.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Models\\ErrorViewModel.cs",
@@ -483,23 +582,25 @@
               "RelativeToolTip": "Shipments.Mvc\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:28:48.348Z"
+              "WhenOpened": "2026-01-21T19:28:48.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Shipments.Mvc\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:28:36.941Z"
+              "WhenOpened": "2026-01-21T19:28:36.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\_ViewImports.cshtml",
@@ -507,35 +608,38 @@
               "RelativeToolTip": "Shipments.Mvc\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T19:27:58.611Z"
+              "WhenOpened": "2026-01-21T19:27:58.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "ShipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\ShipmentsController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\ShipmentsController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\ShipmentsController.cs",
               "RelativeToolTip": "Shipments.Mvc\\Controllers\\ShipmentsController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA5wD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:18:21.354Z"
+              "WhenOpened": "2026-01-21T19:18:21.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "CouriersShipmentaController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\CouriersShipmentaController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\CouriersShipmentaController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\CouriersShipmentaController.cs",
               "RelativeToolTip": "Shipments.Api\\Controllers\\CouriersShipmentaController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswDEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:16:42.663Z"
+              "WhenOpened": "2026-01-21T19:16:42.663Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 55,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\appsettings.json",
               "RelativeDocumentMoniker": "Shipments.Mvc\\appsettings.json",
@@ -547,43 +651,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 13,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Services\\TokenService.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\TokenService.cs",
               "RelativeToolTip": "Shipments.Api\\Services\\TokenService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T18:41:02.003Z"
+              "WhenOpened": "2026-01-21T18:41:02.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Services\\ApiClient.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Services\\ApiClient.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Services\\ApiClient.cs",
               "RelativeToolTip": "Shipments.Mvc\\Services\\ApiClient.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAADwvz0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T18:20:14.437Z"
+              "WhenOpened": "2026-01-21T18:20:14.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 16,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Shipments.Mvc\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAIwJwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAJwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T21:37:51.878Z"
+              "WhenOpened": "2026-01-20T21:37:51.878Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 56,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Properties\\launchSettings.json",
@@ -595,43 +702,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Program.cs",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Program.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Program.cs",
               "RelativeToolTip": "Shipments.Mvc\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T21:14:11.06Z"
+              "WhenOpened": "2026-01-20T21:14:11.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T21:13:47.341Z"
+              "WhenOpened": "2026-01-20T21:13:47.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Views\\Auth\\Login.cshtml",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Views\\Auth\\Login.cshtml",
               "RelativeToolTip": "Shipments.Mvc\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-20T21:13:44.249Z"
+              "WhenOpened": "2026-01-20T21:13:44.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 57,
               "Title": "Shipments.Mvc.csproj",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Mvc\\Shipments.Mvc.csproj",
               "RelativeDocumentMoniker": "Shipments.Mvc\\Shipments.Mvc.csproj",
@@ -643,31 +753,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 4,
               "Title": "AdminShipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\AdminShipmentsController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\AdminShipmentsController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\AdminShipmentsController.cs",
               "RelativeToolTip": "Shipments.Api\\Controllers\\AdminShipmentsController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwvz4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:49:38.845Z"
+              "WhenOpened": "2026-01-20T16:49:38.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Shipments.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:49:38.124Z"
+              "WhenOpened": "2026-01-20T16:49:38.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "CourierListItemDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Admin\\CourierListItemDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Admin\\CourierListItemDto.cs",
@@ -675,23 +787,25 @@
               "RelativeToolTip": "Shipmets.Shared\\Contracts\\Admin\\CourierListItemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T16:44:15.162Z"
+              "WhenOpened": "2026-01-20T16:44:15.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 3,
               "Title": "ShipmentService.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\ShipmentService.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Services\\ShipmentService.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\ShipmentService.cs",
               "RelativeToolTip": "Shipments.Api\\Services\\ShipmentService.cs",
-              "ViewState": "AgIAAGMBAAAAAAAAAADwv2oBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:41:46.807Z"
+              "WhenOpened": "2026-01-19T14:41:46.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 12,
               "Title": "IShipmentService.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Services\\IShipmentService.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Services\\IShipmentService.cs",
@@ -699,11 +813,12 @@
               "RelativeToolTip": "Shipments.Api\\Services\\IShipmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:39:38.955Z"
+              "WhenOpened": "2026-01-19T14:39:38.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 58,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Shipments.Api\\Properties\\launchSettings.json",
@@ -715,31 +830,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 7,
               "Title": "ShipmentsController.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\ShipmentsController.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Controllers\\ShipmentsController.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Controllers\\ShipmentsController.cs",
               "RelativeToolTip": "Shipments.Api\\Controllers\\ShipmentsController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:00:19.268Z"
+              "WhenOpened": "2026-01-19T14:00:19.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 8,
               "Title": "IdentitySeed.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Data\\IdentitySeed.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Data\\IdentitySeed.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Data\\IdentitySeed.cs",
               "RelativeToolTip": "Shipments.Api\\Data\\IdentitySeed.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvzwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:18:17.03Z"
+              "WhenOpened": "2026-01-19T12:18:17.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 59,
               "Title": "Shipments.Api.http",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.http",
               "RelativeDocumentMoniker": "Shipments.Api\\Shipments.Api.http",
@@ -751,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 11,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Models\\AppUser.cs",
@@ -759,11 +876,12 @@
               "RelativeToolTip": "Shipments.Api\\Models\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T12:06:56.324Z"
+              "WhenOpened": "2026-01-19T12:06:56.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 60,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Shipments.Api\\appsettings.json",
@@ -775,19 +893,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 9,
               "Title": "ShipmentsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Data\\ShipmentsDbContext.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Data\\ShipmentsDbContext.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Data\\ShipmentsDbContext.cs",
               "RelativeToolTip": "Shipments.Api\\Data\\ShipmentsDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA+wBYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwBYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T19:57:11.974Z"
+              "WhenOpened": "2026-01-18T19:57:11.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 61,
               "Title": "Shipments.Api.csproj",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Shipments.Api.csproj",
               "RelativeDocumentMoniker": "Shipments.Api\\Shipments.Api.csproj",
@@ -799,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 32,
               "Title": "UpdateShipmentStatusRequest.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Couriers\\Requests\\UpdateShipmentStatusRequest.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Couriers\\Requests\\UpdateShipmentStatusRequest.cs",
@@ -807,107 +926,116 @@
               "RelativeToolTip": "Shipmets.Shared\\Contracts\\Couriers\\Requests\\UpdateShipmentStatusRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T17:09:35.012Z"
+              "WhenOpened": "2026-01-18T17:09:35.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 27,
               "Title": "ShipmentListItemDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentListItemDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentListItemDto.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentListItemDto.cs",
               "RelativeToolTip": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentListItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T17:04:39.354Z"
+              "WhenOpened": "2026-01-18T17:04:39.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 28,
               "Title": "ShipmentEventDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentEventDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentEventDto.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentEventDto.cs",
               "RelativeToolTip": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentEventDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wBMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:36:38.804Z"
+              "WhenOpened": "2026-01-18T16:36:38.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 29,
               "Title": "ShipmentDetailsDto.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentDetailsDto.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentDetailsDto.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentDetailsDto.cs",
               "RelativeToolTip": "Shipmets.Shared\\Contracts\\Shipments\\Responses\\ShipmentDetailsDto.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:32:41.254Z"
+              "WhenOpened": "2026-01-18T16:32:41.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 30,
               "Title": "CreateShipmentRequest.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Requests\\CreateShipmentRequest.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Contracts\\Shipments\\Requests\\CreateShipmentRequest.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Contracts\\Shipments\\Requests\\CreateShipmentRequest.cs",
               "RelativeToolTip": "Shipmets.Shared\\Contracts\\Shipments\\Requests\\CreateShipmentRequest.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T16:29:07.91Z"
+              "WhenOpened": "2026-01-18T16:29:07.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 23,
               "Title": "ShipmentStatusTransitions.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
               "RelativeToolTip": "Shipmets.Shared\\Domain\\Rules\\ShipmentStatusTransitions.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:59:40.766Z"
+              "WhenOpened": "2026-01-18T15:59:40.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 25,
               "Title": "ShipmentEvent.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
               "RelativeToolTip": "Shipmets.Shared\\Domain\\Entities\\ShipmentEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T15:49:49.183Z"
+              "WhenOpened": "2026-01-18T15:49:49.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 26,
               "Title": "Shipment.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
               "RelativeToolTip": "Shipmets.Shared\\Domain\\Entities\\Shipment.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:35:00.808Z"
+              "WhenOpened": "2026-01-16T18:35:00.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 24,
               "Title": "ShipmentStatus.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
               "RelativeToolTip": "Shipmets.Shared\\Domain\\Enums\\ShipmentStatus.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:06:58.508Z"
+              "WhenOpened": "2026-01-16T18:06:58.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 34,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipmets.Shared\\Auth\\Roles.cs",
               "RelativeDocumentMoniker": "Shipmets.Shared\\Auth\\Roles.cs",
@@ -915,19 +1043,21 @@
               "RelativeToolTip": "Shipmets.Shared\\Auth\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T18:06:23.38Z"
+              "WhenOpened": "2026-01-16T18:06:23.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Program.cs",
               "RelativeDocumentMoniker": "Shipments.Api\\Program.cs",
               "ToolTip": "C:\\Users\\vlady\\source\\repos\\ShipmentsSystem\\Shipments.Api\\Program.cs",
               "RelativeToolTip": "Shipments.Api\\Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv2gAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T16:40:18.78Z"
+              "WhenOpened": "2026-01-16T16:40:18.78Z",
+              "EditorCaption": ""
             }
           ]
         }

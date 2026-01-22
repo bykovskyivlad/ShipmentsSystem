@@ -128,7 +128,8 @@ public class ShipmentService : IShipmentService
             throw new KeyNotFoundException("Shipment not found");
 
         
-        if (shipment.Status == ShipmentStatus.Delivered)
+        if (shipment.Status == ShipmentStatus.Delivered ||
+            shipment.Status == ShipmentStatus.Canceled)
             throw new InvalidOperationException("Cannot assign courier to delivered shipment");
 
         

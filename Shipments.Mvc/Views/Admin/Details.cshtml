@@ -1,11 +1,13 @@
 ﻿@model ShipmentDetailsDto
 @using Shipments.Shared.Domain.Enums
+@using Shipments.Shared.Domain.Rules
 
 <link rel="stylesheet" href="~/css/shipments.css" />
 
 <div class="shipments-page">
     <div class="shipments-card" style="max-width: 900px;">
 
+       
         <div class="mb-4">
             <h2 class="shipments-title">
                 Shipment #@Model.Id
@@ -16,6 +18,7 @@
             </p>
         </div>
 
+       
         <div class="mb-4">
             <p><strong>Recipient:</strong> @Model.RecipientName</p>
             <p><strong>City:</strong> @Model.RecipientCity</p>
@@ -27,6 +30,7 @@
 
         <hr />
 
+        
         <div class="mb-4">
             <h4>Courier</h4>
 
@@ -39,15 +43,26 @@
                 <p><strong>Courier ID:</strong> @Model.CourierId</p>
             }
 
-            <a asp-action="Couriers"
-               asp-route-shipmentId="@Model.Id"
-               class="details-link">
-                Assign / change courier
-            </a>
+            @if (Model.Status != ShipmentStatus.Delivered &&
+                        Model.Status != ShipmentStatus.Canceled)
+            {
+                <a asp-action="Couriers"
+                   asp-route-shipmentId="@Model.Id"
+                   class="details-link">
+                    Assign / change courier
+                </a>
+            }
+            else
+            {
+                <p class="text-muted">
+                    <em>Courier cannot be changed for delivered or canceled shipment.</em>
+                </p>
+            }
         </div>
 
         <hr />
 
+        
         <div class="mb-4">
             <h4>Change shipment status</h4>
 
@@ -55,16 +70,30 @@
                 <input type="hidden" name="shipmentId" value="@Model.Id" />
 
                 <div class="mb-3">
-                    <label class="form-label">Status</label>
-                    <select name="newStatus" class="form-select">
-                        @foreach (ShipmentStatus status in Enum.GetValues(typeof(ShipmentStatus)))
-                        {
-                            <option value="@status"
-                                    selected="@(status == Model.Status)">
-                                @status
-                            </option>
-                        }
-                    </select>
+                    <label class="form-label">New status</label>
+
+                    @{
+                        var allowed = ShipmentStatusTransitions.GetAllowedTransitions(Model.Status);
+                    }
+
+                    @if (allowed.Any())
+                    {
+                        <select name="newStatus" class="form-select">
+                            @foreach (var status in allowed)
+                            {
+                                <option value="@status">@status</option>
+                            }
+                        </select>
+                    }
+                    else
+                    {
+                        <select class="form-select" disabled>
+                            <option>Final status</option>
+                        </select>
+                        <div class="form-text text-muted">
+                            Shipment is in final state – no further changes possible.
+                        </div>
+                    }
                 </div>
 
                 <div class="mb-3">
@@ -74,7 +103,9 @@
                               class="form-control"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary">
+                <button type="submit"
+                        class="btn btn-primary"
+                        @(allowed.Any() ? "" : "disabled")>
                     Update status
                 </button>
             </form>
@@ -82,6 +113,7 @@
 
         <hr />
 
+        
         <div>
             <h4 class="mb-3">Event history</h4>
 

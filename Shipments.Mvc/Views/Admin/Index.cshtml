@@ -1,27 +1,43 @@
 ﻿@model List<ShipmentListItemDto>
 
-<h2>Admin – all shipments</h2>
+<link rel="stylesheet" href="~/css/shipments.css" />
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Status</th>
-            <th>City</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var s in Model)
-        {
-            <tr>
-                <td>@s.Id</td>
-                <td>@s.Status</td>
-                <td>@s.RecipientCity</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@s.Id">Details</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="shipments-page">
+    <div class="shipments-card">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="shipments-title">Admin – all shipments</h2>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table shipments-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Status</th>
+                        <th>City</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var s in Model)
+                    {
+                        <tr>
+                            <td>@s.Id</td>
+                            <td>@s.Status</td>
+                            <td>@s.RecipientCity</td>
+                            <td class="text-end">
+                                <a asp-action="Details"
+                                   asp-route-id="@s.Id"
+                                   class="details-link">
+                                    Details
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

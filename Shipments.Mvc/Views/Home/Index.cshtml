@@ -1,8 +1,81 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/welcome.css" />
+@if (!User.Identity!.IsAuthenticated)
+{
+    <div class="page-with-bg">
+        <div class="welcome-wrapper">
+            <div class="welcome-card">
+                <h1>Welcome to Shipments</h1>
+                <p class="welcome-subtitle">
+                    Fast, simple and reliable deliveries
+                </p>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+                <div class="mt-4 d-flex justify-content-center gap-3">
+                    <a asp-controller="Auth"
+                       asp-action="Login"
+                       class="btn welcome-btn-primary">
+                        Login
+                    </a>
+
+                    <a asp-controller="Auth"
+                       asp-action="Register"
+                       class="btn welcome-btn-outline">
+                        Register
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="page-with-bg">
+        <div class="welcome-wrapper">
+            <div class="welcome-card">
+                <h1>Hello, @User.Identity.Name</h1>
+                <p class="welcome-subtitle">
+                    You are logged in
+                </p>
+
+                <div class="mt-4 d-flex flex-column align-items-center gap-3">
+
+                    <a asp-controller="Auth"
+                       asp-action="Logout"
+                       class="btn welcome-btn-primary">
+                        Logout
+                    </a>
+
+                    @if (User.IsInRole("Client"))
+                    {
+                        <a asp-controller="Shipments"
+                           asp-action="Index"
+                           class="btn welcome-btn-outline">
+                            My shipments
+                        </a>
+                    }
+
+                    @if (User.IsInRole("Courier"))
+                    {
+                        <a asp-controller="Courier"
+                           asp-action="Index"
+                           class="btn welcome-btn-outline">
+                            Courier panel
+                        </a>
+                    }
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Admin"
+                           asp-action="Index"
+                           class="btn welcome-btn-outline">
+                            Admin panel
+                        </a>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+}

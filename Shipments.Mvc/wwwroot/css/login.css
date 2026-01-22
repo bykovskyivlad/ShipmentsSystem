@@ -1,0 +1,89 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-image: url("/images/background.jpg");
+    background-position: center;
+}
+.login-card {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+    border-radius: 16px;
+    padding: 36px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    font-family: 'Inter', sans-serif;
+}
+
+.login-header h2 {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.login-header p {
+    color: #cbd5f5;
+    margin-bottom: 32px;
+}
+
+.login-input {
+    background-color: #020617;
+    border: 1px solid #334155;
+    color: white;
+}
+
+    .login-input:focus {
+        background-color: #020617;
+        color: white;
+        border-color: #6366f1;
+        box-shadow: none;
+    }
+
+.login-btn {
+    background: linear-gradient(135deg, #6366f1, #22d3ee);
+    border: none;
+    font-weight: 600;
+    padding: 12px;
+}
+
+    .login-btn:hover {
+        opacity: 0.95;
+    }
+
+.login-link {
+    color: #22d3ee;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    .login-link:hover {
+        text-decoration: underline;
+    }
+
+.role-switch {
+    display: flex;
+    gap: 12px;
+}
+
+    .role-switch input {
+        display: none;
+    }
+
+    .role-switch label {
+        flex: 1;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 500;
+        background: rgba(255, 255, 255, 0.15);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: all 0.2s ease;
+    }
+
+    .role-switch input:checked + label {
+        background: linear-gradient(135deg, #6366f1, #06b6d4);
+        border-color: transparent;
+        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+    }
+.site-footer {
+    color: #fff;
+}

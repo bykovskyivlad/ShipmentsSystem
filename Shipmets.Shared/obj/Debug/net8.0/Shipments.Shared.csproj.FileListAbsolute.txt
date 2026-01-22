@@ -22,3 +22,14 @@ C:\Users\odyrd\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shi
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\refint\Shipments.Shared.dll
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.pdb
 C:\Users\odyrd\source\repos\ShipmentsSystem\Shipmets.Shared\obj\Debug\net8.0\ref\Shipments.Shared.dll
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\bin\Debug\net8.0\Shipments.Shared.deps.json
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\bin\Debug\net8.0\Shipments.Shared.dll
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\bin\Debug\net8.0\Shipments.Shared.pdb
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.AssemblyInfoInputs.cache
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.AssemblyInfo.cs
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.dll
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\refint\Shipments.Shared.dll
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\Shipments.Shared.pdb
+C:\Users\Pawlik\Downloads\ShipmentsSystem-main2\Shipmets.Shared\obj\Debug\net8.0\ref\Shipments.Shared.dll

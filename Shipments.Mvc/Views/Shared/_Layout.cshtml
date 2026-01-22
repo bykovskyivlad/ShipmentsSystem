@@ -8,76 +8,67 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Shipments.Mvc.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="layout-root">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid position-relative">
+
+                <a class="navbar-brand position-absolute start-0 ms-3"
+                   asp-area="" asp-controller="Home" asp-action="Index"
+                   style="font-family: 'Segoe UI Semibold','Segoe UI',Arial,sans-serif;
+                      font-size: 1.4rem;
+                      letter-spacing: 0.5px;">
                     Shipments.Mvc
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
                         data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+
+                <div class="navbar-collapse collapse d-sm-flex justify-content-center">
+                    <ul class="navbar-nav gap-4">
                         <li class="nav-item">
-                            <a class="nav-link text-dark"
+                            <a class="nav-link nav-center-link"
                                asp-controller="Home"
                                asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark"
+                            <a class="nav-link nav-center-link"
                                asp-controller="Home"
                                asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-    @if (!User.Identity!.IsAuthenticated)
-    {
-        <a asp-controller="Auth" asp-action="Login">Login</a>
-        <span> | </span>
-        <a asp-controller="Auth" asp-action="Register">Register</a>
-    }
-    else
-    {
-        <span>Hello @User.Identity.Name</span>
-        <span> | </span>
-        <a asp-controller="Auth" asp-action="Logout">Logout</a>
 
-        @* Client *@
-        @if (User.IsInRole("Client"))
-        {
-            <span> | </span>
-            <a asp-controller="Shipments" asp-action="Index">My shipments</a>
+    <style>
+        .nav-center-link {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: #333;
+            transition: color 0.2s ease;
         }
 
-        @* Courier *@
-        @if (User.IsInRole("Courier"))
-        {
-            <span> | </span>
-            <a asp-controller="Courier" asp-action="Index">Courier panel</a>
-        }
+            .nav-center-link:hover {
+                color: #6366f1; 
+            }
+    </style>
+    <main class="layout-content pb-5">
+        @RenderBody()
+    </main>
 
-        @* Admin *@
-        @if (User.IsInRole("Admin"))
-        {
-            <span> | </span>
-            <a asp-controller="Admin" asp-action="Index">Admin panel</a>
-        }
-    }
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - Shipments.Mvc -
-            <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="site-footer">
+        <div class="container py-2 text-center"
+             style="font-size: 1.05rem;
+                font-family: 'Segoe UI', Arial, sans-serif;
+                font-weight: 500;">
+            &copy; 2026 - Shipments.Mvc
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

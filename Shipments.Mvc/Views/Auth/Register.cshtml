@@ -1,24 +1,75 @@
 ﻿@model Shipments.Shared.Auth.RegisterRequest
 
-<h2>Register</h2>
-
-<form method="post">
-    <label>Email</label>
-    <input asp-for="Email" />
-
-    <label>Password</label>
-    <input asp-for="Password" type="password" />
-
-    <label>Role</label>
-    <select asp-for="Role">
-        <option value="Client">Client</option>
-        <option value="Courier">Courier</option>
-    </select>
-
-    <button type="submit">Register</button>
-</form>
-
-@foreach (var err in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-{
-    <p style="color:red">@err.ErrorMessage</p>
+@{
+    ViewData["Title"] = "Register";
 }
+
+<link rel="stylesheet" href="~/css/login.css" />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+
+            <div class="login-card mt-5">
+                <div class="login-header">
+                    <h2>Create account</h2>
+                    <p>Sign up to get started</p>
+                </div>
+
+                <form method="post" asp-controller="Auth" asp-action="Register">
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input asp-for="Email"
+                               type="email"
+                               class="form-control login-input"
+                               required />
+                        <span asp-validation-for="Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input asp-for="Password"
+                               type="password"
+                               class="form-control login-input"
+                               required />
+                        <span asp-validation-for="Password" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label d-block">Role</label>
+
+                        <div class="role-switch">
+                            <input type="radio" asp-for="Role" value="Client" id="roleClient" checked />
+                            <label for="roleClient">Client</label>
+
+                            <input type="radio" asp-for="Role" value="Courier" id="roleCourier" />
+                            <label for="roleCourier">Courier</label>
+                        </div>
+
+                        <span asp-validation-for="Role" class="text-danger small"></span>
+                    </div>
+
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                        <div class="alert alert-danger py-2">
+                            Please fix the errors above
+                        </div>
+                    }
+
+                    <button type="submit" class="btn login-btn w-100">
+                        Create account
+                    </button>
+                </form>
+
+                <div class="text-center mt-4">
+                    <span class="text-muted">Already have an account?</span>
+                    <a asp-controller="Auth"
+                       asp-action="Login"
+                       class="login-link">
+                        Sign in
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>

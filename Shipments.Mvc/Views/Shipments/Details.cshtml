@@ -1,27 +1,54 @@
 ﻿@model ShipmentDetailsDto
 
-<h2>Shipment #@Model.Id</h2>
+<link rel="stylesheet" href="~/css/shipments.css" />
 
-<p>Status: <strong>@Model.Status</strong></p>
-<p>Recipient: @Model.RecipientName</p>
-<p>City: @Model.RecipientCity</p>
+<div class="shipments-page">
+    <div class="shipments-card" style="max-width: 800px;">
 
-@if (Model.Status.ToString() == "Created")
-{
-    <form asp-action="Cancel" method="post">
-        <input type="hidden" name="id" value="@Model.Id" />
-        <button type="submit">Cancel shipment</button>
-    </form>
-}
+        <div class="mb-4">
+            <h2 class="shipments-title">
+                Shipment #@Model.Id
+            </h2>
+            <p class="text-muted mb-0">
+                Current status:
+                <strong>@Model.Status</strong>
+            </p>
+        </div>
 
-<h3>History</h3>
-<ul>
-    @foreach (var e in Model.Events)
-    {
-        <li>
-            @e.OccurredAtUtc:
-            @e.OldStatus → @e.NewStatus
-            (@e.PerformedByRole)
-        </li>
-    }
-</ul>
+        <div class="mb-4">
+            <p><strong>Recipient:</strong> @Model.RecipientName</p>
+            <p><strong>City:</strong> @Model.RecipientCity</p>
+        </div>
+
+        @if (Model.Status.ToString() == "Created")
+        {
+            <form asp-action="Cancel" method="post" class="mb-4">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit"
+                        class="btn btn-outline-danger">
+                    Cancel shipment
+                </button>
+            </form>
+        }
+
+        <h4 class="mb-3">History</h4>
+
+        <ul class="list-group list-group-flush shipment-history">
+            @foreach (var e in Model.Events)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>
+                        @e.OldStatus → <strong>@e.NewStatus</strong>
+                        <span class="text-muted">
+                            (@e.PerformedByRole)
+                        </span>
+                    </span>
+                    <span class="text-muted small">
+                        @e.OccurredAtUtc
+                    </span>
+                </li>
+            }
+        </ul>
+
+    </div>
+</div>

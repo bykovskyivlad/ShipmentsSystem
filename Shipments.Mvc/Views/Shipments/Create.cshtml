@@ -1,37 +1,51 @@
 ﻿@model CreateShipmentRequest
 
-<h2>Create shipment</h2>
+<link rel="stylesheet" href="~/css/shipments.css" />
 
-<form method="post">
-    <div>
-        <label>Recipient name</label>
-        <input asp-for="RecipientName" />
+<div class="shipments-page">
+    <div class="shipments-card" style="max-width: 700px;">
+
+        <h2 class="shipments-title mb-4">Create shipment</h2>
+
+        <form method="post" class="shipment-form">
+
+            <div class="mb-3">
+                <label class="form-label">Recipient name</label>
+                <input asp-for="RecipientName" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Address</label>
+                <input asp-for="RecipientAddress" class="form-control" />
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">City</label>
+                    <input asp-for="RecipientCity" class="form-control" />
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Postal code</label>
+                    <input asp-for="RecipientPostalCode" class="form-control" />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Phone</label>
+                <input asp-for="RecipientPhone" class="form-control" />
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Notes</label>
+                <textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn new-shipment-btn">
+                Create shipment
+            </button>
+
+        </form>
+
     </div>
-
-    <div>
-        <label>Address</label>
-        <input asp-for="RecipientAddress" />
-    </div>
-
-    <div>
-        <label>City</label>
-        <input asp-for="RecipientCity" />
-    </div>
-
-    <div>
-        <label>Postal code</label>
-        <input asp-for="RecipientPostalCode" />
-    </div>
-
-    <div>
-        <label>Phone</label>
-        <input asp-for="RecipientPhone" />
-    </div>
-
-    <div>
-        <label>Notes</label>
-        <textarea asp-for="Notes"></textarea>
-    </div>
-
-    <button type="submit">Create</button>
-</form>
+</div>

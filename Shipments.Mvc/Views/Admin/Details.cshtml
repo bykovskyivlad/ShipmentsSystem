@@ -1,119 +1,138 @@
 ﻿@model ShipmentDetailsDto
 @using Shipments.Shared.Domain.Enums
 
-<h2>Shipment details – ID @Model.Id</h2>
+<link rel="stylesheet" href="~/css/shipments.css" />
 
-<hr />
+<div class="shipments-page">
+    <div class="shipments-card" style="max-width: 900px;">
 
-<h3>Basic information</h3>
-<ul>
-    <li><strong>Status:</strong> @Model.Status</li>
-    <li><strong>Recipient:</strong> @Model.RecipientName</li>
-    <li><strong>City:</strong> @Model.RecipientCity</li>
-    <li><strong>Address:</strong> @Model.RecipientAddress</li>
-    <li><strong>Postal code:</strong> @Model.RecipientPostalCode</li>
-    <li><strong>Phone:</strong> @Model.RecipientPhone</li>
-    <li><strong>Created:</strong> @Model.CreatedAt</li>
-</ul>
+        <div class="mb-4">
+            <h2 class="shipments-title">
+                Shipment #@Model.Id
+            </h2>
+            <p class="text-muted mb-0">
+                Current status:
+                <strong>@Model.Status</strong>
+            </p>
+        </div>
 
-<hr />
+        <div class="mb-4">
+            <p><strong>Recipient:</strong> @Model.RecipientName</p>
+            <p><strong>City:</strong> @Model.RecipientCity</p>
+            <p><strong>Address:</strong> @Model.RecipientAddress</p>
+            <p><strong>Postal code:</strong> @Model.RecipientPostalCode</p>
+            <p><strong>Phone:</strong> @Model.RecipientPhone</p>
+            <p><strong>Created:</strong> @Model.CreatedAt</p>
+        </div>
 
-<h3>Courier</h3>
+        <hr />
 
-@if (string.IsNullOrEmpty(Model.CourierId))
-{
-    <p><em>No courier assigned</em></p>
-}
-else
-{
-    <p>
-        <strong>Courier ID:</strong> @Model.CourierId
-    </p>
-}
+        <div class="mb-4">
+            <h4>Courier</h4>
 
-<a asp-action="Couriers"
-   asp-route-shipmentId="@Model.Id">
-    Assign / change courier
-</a>
-
-<hr />
-
-<h3>Change shipment status</h3>
-
-<form asp-action="UpdateStatus" method="post">
-    <input type="hidden" name="shipmentId" value="@Model.Id" />
-
-    <div>
-        <label>Status</label><br />
-        <select name="newStatus">
-            @foreach (ShipmentStatus status in Enum.GetValues(typeof(ShipmentStatus)))
+            @if (string.IsNullOrEmpty(Model.CourierId))
             {
-                <option value="@status"
-                        selected="@(status == Model.Status)">
-                    @status
-                </option>
+                <p class="text-muted"><em>No courier assigned</em></p>
             }
-        </select>
+            else
+            {
+                <p><strong>Courier ID:</strong> @Model.CourierId</p>
+            }
+
+            <a asp-action="Couriers"
+               asp-route-shipmentId="@Model.Id"
+               class="details-link">
+                Assign / change courier
+            </a>
+        </div>
+
+        <hr />
+
+        <div class="mb-4">
+            <h4>Change shipment status</h4>
+
+            <form asp-action="UpdateStatus" method="post">
+                <input type="hidden" name="shipmentId" value="@Model.Id" />
+
+                <div class="mb-3">
+                    <label class="form-label">Status</label>
+                    <select name="newStatus" class="form-select">
+                        @foreach (ShipmentStatus status in Enum.GetValues(typeof(ShipmentStatus)))
+                        {
+                            <option value="@status"
+                                    selected="@(status == Model.Status)">
+                                @status
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Notes</label>
+                    <textarea name="notes"
+                              rows="3"
+                              class="form-control"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Update status
+                </button>
+            </form>
+        </div>
+
+        <hr />
+
+        <div>
+            <h4 class="mb-3">Event history</h4>
+
+            @if (Model.Events.Any())
+            {
+                <ul class="list-group list-group-flush shipment-history">
+                    @foreach (var ev in Model.Events)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div>
+                                @if (ev.OldStatus.HasValue && ev.NewStatus.HasValue)
+                                {
+                                    <span>
+                                        @ev.OldStatus → <strong>@ev.NewStatus</strong>
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span><strong>Event</strong></span>
+                                }
+
+                                <div class="text-muted small">
+                                    By: @ev.PerformedByRole (@ev.PerformedByUserId)
+                                </div>
+
+                                @if (!string.IsNullOrEmpty(ev.Notes))
+                                {
+                                    <div class="small">
+                                        <em>Notes:</em> @ev.Notes
+                                    </div>
+                                }
+                            </div>
+
+                            <span class="text-muted small">
+                                @ev.OccurredAtUtc
+                            </span>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="text-muted"><em>No events yet</em></p>
+            }
+        </div>
+
+        <div class="mt-4">
+            <a asp-action="Index" class="details-link">
+                ← Back to admin list
+            </a>
+        </div>
+
     </div>
-
-    <div>
-        <label>Notes</label><br />
-        <textarea name="notes"
-                  rows="3"
-                  cols="40"></textarea>
-    </div>
-
-    <br />
-    <button type="submit">Update status</button>
-</form>
-
-<hr />
-
-<h3>Event history</h3>
-
-@if (Model.Events.Any())
-{
-    <ul>
-        @foreach (var ev in Model.Events)
-        {
-            <li>
-                <strong>@ev.OccurredAtUtc:</strong>
-
-                @if (ev.OldStatus.HasValue && ev.NewStatus.HasValue)
-                {
-                    <span>
-                        Status changed from
-                        <strong>@ev.OldStatus</strong>
-                        to
-                        <strong>@ev.NewStatus</strong>
-                    </span>
-                }
-                else
-                {
-                    <span>Event</span>
-                }
-
-                <br />
-                <small>
-                    By: @ev.PerformedByRole (@ev.PerformedByUserId)
-                </small>
-
-                @if (!string.IsNullOrEmpty(ev.Notes))
-                {
-                    <div>
-                        <em>Notes:</em> @ev.Notes
-                    </div>
-                }
-            </li>
-        }
-    </ul>
-}
-else
-{
-    <p><em>No events yet</em></p>
-}
-
-
-<hr />
-
-<a asp-action="Index">⬅ Back to admin list</a>
+</div>

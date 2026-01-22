@@ -1,19 +1,42 @@
 ﻿@model List<CourierListItemDto>
 
-<h2>Select courier</h2>
+<link rel="stylesheet" href="~/css/shipments.css" />
 
-<table class="table">
-    @foreach (var c in Model)
-    {
-        <tr>
-            <td>@c.Email</td>
-            <td>
-                <form asp-action="AssignCourier" method="post">
-                    <input type="hidden" name="shipmentId" value="@ViewBag.ShipmentId" />
-                    <input type="hidden" name="courierId" value="@c.Id" />
-                    <button type="submit">Assign</button>
-                </form>
-            </td>
-        </tr>
-    }
-</table>
+<div class="shipments-page">
+    <div class="shipments-card" style="max-width: 700px;">
+
+        <div class="mb-4">
+            <h2 class="shipments-title">Select courier</h2>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table shipments-table">
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th class="text-end"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var c in Model)
+                    {
+                        <tr>
+                            <td>@c.Email</td>
+                            <td class="text-end">
+                                <form asp-action="AssignCourier" method="post" class="d-inline">
+                                    <input type="hidden" name="shipmentId" value="@ViewBag.ShipmentId" />
+                                    <input type="hidden" name="courierId" value="@c.Id" />
+                                    <button type="submit" class="btn btn-primary btn-sm">
+                                        Assign
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+

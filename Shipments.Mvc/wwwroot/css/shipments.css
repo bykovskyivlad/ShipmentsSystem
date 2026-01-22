@@ -1,0 +1,86 @@
+.shipments-page {
+    display: flex;
+    justify-content: center;
+    padding: 60px 16px;
+}
+
+.shipments-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 28px 32px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.shipments-title {
+    font-family: 'Segoe UI Semibold','Segoe UI',Arial,sans-serif;
+    margin: 0;
+}
+
+.shipments-table {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+    .shipments-table thead th {
+        font-weight: 600;
+        color: #555;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+    .shipments-table tbody td {
+        padding: 14px 8px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .shipments-table tbody tr:hover {
+        background-color: #fafafa;
+    }
+
+.new-shipment-btn {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+    .new-shipment-btn:hover {
+        color: #fff;
+        opacity: 0.9;
+    }
+
+.details-link {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    .details-link:hover {
+        text-decoration: underline;
+    }
+
+
+.shipment-form .form-label {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.shipment-form .form-control {
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.shipment-form textarea.form-control {
+    resize: vertical;
+}
+.shipment-history .list-group-item {
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+    .shipment-history .list-group-item:last-child {
+        border-bottom: none;
+    }

@@ -1,22 +1,59 @@
-﻿<h2>Login</h2>
-
-<form method="post" asp-controller="Auth" asp-action="Login">
-    <div>
-        <label>Email</label>
-        <input name="email" />
-    </div>
-
-    <div>
-        <label>Password</label>
-        <input name="password" type="password" />
-    </div>
-
-    <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" />
-
-    <button type="submit">Login</button>
-</form>
-
-@if (!ViewData.ModelState.IsValid)
-{
-    <p style="color:red">Invalid login or password</p>
+﻿@{
+    ViewData["Title"] = "Login";
 }
+<link rel="stylesheet" href="~/css/login.css" />
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+
+        <div class="login-card mt-5">
+            <div class="login-header">
+                <h2>Welcome back</h2>
+                <p>Sign in to your account</p>
+            </div>
+
+            <form method="post" asp-controller="Auth" asp-action="Login">
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email"
+                           name="email"
+                           class="form-control login-input"
+                           required />
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label">Password</label>
+                    <input type="password"
+                           name="password"
+                           class="form-control login-input"
+                           required />
+                </div>
+
+                <input type="hidden"
+                       name="returnUrl"
+                       value="@ViewBag.ReturnUrl" />
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger py-2">
+                        Invalid email or password
+                    </div>
+                }
+
+                <button type="submit" class="btn login-btn w-100">
+                    Sign in
+                </button>
+            </form>
+
+            <div class="text-center mt-4">
+                <span class="text-muted">No account?</span>
+                <a asp-controller="Auth" asp-action="Register"
+                   class="login-link">
+                    Register
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+

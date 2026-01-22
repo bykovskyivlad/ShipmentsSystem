@@ -11,7 +11,7 @@ using Shipments.Api.Data;
 namespace Shipments.Api.Migrations
 {
     [DbContext(typeof(ShipmentsDbContext))]
-    [Migration("20260120165948_Init")]
+    [Migration("20260122173225_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -172,6 +172,9 @@ namespace Shipments.Api.Migrations
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("TEXT");
+
+                    b.Property<bool>("MustChangePassword")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)

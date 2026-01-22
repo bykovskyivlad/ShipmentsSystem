@@ -1,0 +1,19 @@
+﻿@model List<CourierListItemDto>
+
+<h2>Select courier</h2>
+
+<table class="table">
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.Email</td>
+            <td>
+                <form asp-action="AssignCourier" method="post">
+                    <input type="hidden" name="shipmentId" value="@ViewBag.ShipmentId" />
+                    <input type="hidden" name="courierId" value="@c.Id" />
+                    <button type="submit">Assign</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>

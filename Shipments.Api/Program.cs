@@ -100,4 +100,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 await IdentitySeed.SeedRolesAsync(app.Services);
+await IdentitySeed.SeedAdminAsync(app.Services);
 app.Run();
